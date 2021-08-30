@@ -1,0 +1,31 @@
+.storyFeed{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    transition: all 0.5s ease-out;
+    padding: 10px;
+}
+
+.storyFeed:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.storyFeed__avatar{
+    border: 3px solid #cd486b !important;
+    height: 70px !important;
+    width: 70px !important;
+
+}
+
+.storyFeedHeadingOff{
+    font-size: 12px;
+    color: #242424;
+}
+
+.storyFeedHeadingOn{
+    font-size: 12px;
+    color: #fff;
+}

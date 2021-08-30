@@ -1,0 +1,28 @@
+.storyOff{
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.storyOn{
+    display: flex;
+    padding: 10px;
+    background-color: #121212;
+}
+
+.story__container{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 50px;
+    align-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .storyOn{
+        display: none;
+    }
+    .storyOff{
+        display: none;
+    }
+}

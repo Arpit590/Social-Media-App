@@ -1,0 +1,11 @@
+.postsOff{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.postsOn{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+}
